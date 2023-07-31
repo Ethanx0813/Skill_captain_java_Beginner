@@ -1,6 +1,5 @@
 package first;
 
-//Vehicle class
 class Vehicle {
  private String brand;
  private String model;
@@ -22,7 +21,6 @@ class Vehicle {
  }
 }
 
-//Car class (subclass of Vehicle)
 class Car extends Vehicle {
  private int numberOfSeats;
 
@@ -36,7 +34,6 @@ class Car extends Vehicle {
  }
 }
 
-//Motorcycle class (subclass of Vehicle)
 class Motorcycle extends Vehicle {
  private int engineCapacity;
 
@@ -50,10 +47,10 @@ class Motorcycle extends Vehicle {
  }
 }
 
-//Main class
+
 public static class Main {
  public static void main(String[] args) {
-     // Creating instances of Car and Motorcycle
+    
      Car car = new Car("Toyota", "Camry", 2022, 50.5, 5);
      Motorcycle motorcycle = new Motorcycle("Harley-Davidson", "Sportster", 2020, 30.0, 1200);
 
