@@ -54,8 +54,7 @@ class Car extends Vehicle {
     }
 
     public double calculateMileage() {
-        // Implement the logic to calculate mileage based on certain criteria
-        // For example: return some value representing the mileage
+        
         return 0;
     }
 
@@ -91,8 +90,7 @@ class Motorcycle extends Vehicle {
     }
 
     public double calculateSpeed() {
-        // Implement the logic to calculate speed based on certain criteria
-        // For example: return some value representing the top speed
+        
         return 0;
     }
 
@@ -109,7 +107,7 @@ class Motorcycle extends Vehicle {
     }
 
 	public void setYear(int newYear) {
-		// TODO Auto-generated method stub
+	
 		
 	}
 }
@@ -131,7 +129,7 @@ public class Main {
             System.out.println("6. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); /
 
             switch (choice) {
                 case 1:
@@ -171,12 +169,12 @@ public class Main {
         int year = scanner.nextInt();
         System.out.print("Enter price: ");
         double price = scanner.nextDouble();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine();
 
         if (vehicleType.equalsIgnoreCase("Car")) {
             System.out.print("Enter number of doors: ");
             int numDoors = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
             System.out.print("Enter fuel type: ");
             String fuelType = scanner.nextLine();
 
@@ -283,7 +281,7 @@ public class Main {
         double minPrice = scanner.nextDouble();
         System.out.print("Enter the maximum price: ");
         double maxPrice = scanner.nextDouble();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); 
 
         List<Vehicle> searchResults = new ArrayList<>();
         for (Vehicle vehicle : vehicleInventory) {
