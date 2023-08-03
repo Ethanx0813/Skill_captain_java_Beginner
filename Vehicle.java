@@ -324,16 +324,16 @@ public class Main {
 
             System.out.print("Enter new year: ");
             int newYear = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
             System.out.print("Enter new price: ");
             double newPrice = scanner.nextDouble();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             if (foundVehicle instanceof Car) {
                 Car car = (Car) foundVehicle;
                 System.out.print("Enter new number of doors: ");
                 int newNumDoors = scanner.nextInt();
-                scanner.nextLine(); // Consume the newline character
+                scanner.nextLine(); 
                 System.out.print("Enter new fuel type: ");
                 String newFuelType = scanner.nextLine();
 
